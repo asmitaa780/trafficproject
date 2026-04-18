@@ -1,0 +1,20 @@
+# Traffic Violations Pipeline — Complete Dependencies
+# =====================================================
+# Core install:  pip install pandas numpy scipy requests sqlalchemy
+# Dashboard:     pip install streamlit plotly
+# Spark:         pip install pyspark  (needs Java 11+)
+# Airflow:       pip install apache-airflow==2.9.0
+# Kafka:         pip install kafka-python  then set USE_REAL_KAFKA=true
+# AWS S3:        pip install boto3         then set USE_REAL_AWS=true
+# GCS:           pip install google-cloud-storage  then set USE_REAL_GCP=true
+
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+requests>=2.31.0
+sqlalchemy>=2.0.0
+pyarrow>=12.0.0
+streamlit>=1.32.0
+plotly>=5.18.0
+kafka-python>=2.0.2
+boto3>=1.26.0
