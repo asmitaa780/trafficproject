@@ -1,15 +1,4 @@
-"""
-pipeline/transform.py
-─────────────────────
-Step 5 — Advanced Python: reusable modules for data transformation.
 
-Provides:
-  • normalize()        — min-max normalization
-  • aggregate_by_zone()— grouped aggregation with multiple statistics
-  • validate_schema()  — schema contract enforcement
-  • encode_categoricals()— label encoding for ML readiness
-  • compute_risk_score() — composite feature engineering
-"""
 
 import pandas as pd
 import numpy as np
