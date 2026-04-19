@@ -1,22 +1,4 @@
-"""
-pipeline/kafka_streaming.py
-───────────────────────────
-Step 17 — Simulate real-time data processing using streaming APIs
-Step 18 — Set up Kafka producer-consumer pipeline
-Step 19 — Implement partitioning and offset management
 
-Architecture:
-  ViolationProducer  →  Kafka Topic: traffic-violations  →  ViolationConsumer
-                                  ↓
-                        Spark Structured Streaming (Step 20)
-
-Running without a real Kafka cluster:
-  USE_REAL_KAFKA=false  → uses an in-process queue to simulate Kafka semantics
-  USE_REAL_KAFKA=true   → connects to localhost:9092 (or KAFKA_BOOTSTRAP_SERVERS)
-
-To start real Kafka locally:
-  docker-compose up -d   (see docker-compose.yml)
-"""
 
 import os
 import json
