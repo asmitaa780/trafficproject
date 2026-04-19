@@ -1,17 +1,4 @@
-"""
-pipeline/cloud.py
-──────────────────
-Step 23 — Compare AWS, GCP, Azure services
-Step 24 — Upload and retrieve files from S3/GCS
-Step 25 — Launch EC2 instance and deploy data pipeline
-Step 26 — Use BigQuery/Redshift to analyze large data
-Step 27 — Implement Delta Lake/Iceberg and manage versions
 
-All cloud operations have a LOCAL SIMULATION mode (default).
-Set env vars to connect to real cloud:
-  USE_REAL_AWS=true  + AWS_ACCESS_KEY_ID + AWS_SECRET_ACCESS_KEY + S3_BUCKET
-  USE_REAL_GCP=true  + GOOGLE_APPLICATION_CREDENTIALS + GCS_BUCKET
-"""
 
 import os
 import json
