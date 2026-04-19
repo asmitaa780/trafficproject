@@ -1,16 +1,3 @@
-"""
-pipeline/cleaning.py
-────────────────────
-Step 4  — Python basics: read CSVs, clean missing values, merge datasets
-Step 6  — Pandas + NumPy: memory optimization, large-scale analysis
-
-Handles:
-  • Missing value imputation (median / mode / forward-fill)
-  • Outlier capping (IQR method)
-  • Duplicate detection & removal
-  • Type coercion
-  • Memory footprint reduction via downcasting
-"""
 
 import pandas as pd
 import numpy as np
