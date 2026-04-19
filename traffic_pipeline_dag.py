@@ -1,20 +1,4 @@
-"""
-dags/traffic_pipeline_dag.py
-─────────────────────────────
-Step 21 — Create DAG for ETL pipeline
-Step 22 — Add scheduling, monitoring, retry mechanisms
 
-Deploy:  copy this file to $AIRFLOW_HOME/dags/
-Install: pip install apache-airflow apache-airflow-providers-slack
-
-Local Airflow quick-start:
-  pip install apache-airflow==2.8.1
-  airflow db init
-  airflow users create --username admin --password admin --role Admin
-                       --firstname A --lastname B --email a@b.com
-  airflow webserver -p 8080 &
-  airflow scheduler &
-"""
 
 from __future__ import annotations
 
