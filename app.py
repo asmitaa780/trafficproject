@@ -1,8 +1,4 @@
-"""
-dashboard/app.py — Traffic Violations Pipeline Dashboard
-Self-contained: all pipeline logic embedded, no external pipeline imports needed.
-Run: streamlit run dashboard/app.py
-"""
+
 
 import os, sys, json, sqlite3, logging, random
 from pathlib import Path
