@@ -1,15 +1,3 @@
-"""
-pipeline/hadoop_hdfs.py
-───────────────────────
-Step 11 — Set up HDFS locally, upload structured/unstructured data
-Step 12 — Explain Namenode/Datanode architecture, simulate data storage
-
-Since a real HDFS cluster requires Java + Hadoop daemons, this module:
-  1. Simulates HDFS directory structure locally under data/hdfs/
-  2. Implements the same API you'd use with hdfs3 / snakebite / WebHDFS
-  3. Logs block-distribution metadata to simulate Namenode tracking
-  4. Can switch to REAL WebHDFS by setting USE_REAL_HDFS=True + HDFS_HOST env var
-"""
 
 import os
 import json
