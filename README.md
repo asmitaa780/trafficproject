@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Traffic Violations — Complete Data Engineering Pipeline
 ### All 30 Steps · End-to-End · Executable
 
@@ -141,4 +141,4 @@ airflow dags trigger traffic_violations_pipeline
 =======
 # trafficviolation
 Data Engineering Project Batch_2027, Name-Asmita Paul ,Roll number-23052957,Title -Traffic Violation Database
->>>>>>> 3830bca4a23783a67512e0fe60dedb9513f0f245
+
