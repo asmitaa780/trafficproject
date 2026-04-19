@@ -1,16 +1,4 @@
-"""
-pipeline/loader.py
-──────────────────
-Step 9  — ETL pipeline: load transformed data to target storage
-Step 10 — Batch ingestion to database
-Step 11 — HDFS / Parquet export (local simulation)
 
-Loaders:
-  • load_to_sqlite()    — local SQLite (dev/test warehouse)
-  • export_parquet()    — columnar storage for Spark/HDFS
-  • export_csv()        — flat file for downstream consumers
-  • load_star_schema()  — fact + dimension table pattern (Steps 8, 9)
-"""
 
 import pandas as pd
 import numpy as np
