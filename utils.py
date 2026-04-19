@@ -1,9 +1,4 @@
-"""
-pipeline/utils.py
-─────────────────
-Step 1 — Linux environment: directory setup, logging, file permissions
-Step 2 — Networking: HTTP ingestion helpers
-"""
+
 
 import logging
 import os
