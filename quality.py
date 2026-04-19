@@ -1,13 +1,3 @@
-"""
-pipeline/quality.py
-───────────────────
-Step 28 — Data quality validation checks and anomaly detection system.
-
-Provides:
-  • run_dq_checks()     — full DQ suite (nulls, ranges, uniqueness, freshness)
-  • detect_anomalies()  — Z-score + IQR-based statistical outlier detection
-  • generate_dq_report()— human-readable markdown summary
-"""
 
 import pandas as pd
 import numpy as np
