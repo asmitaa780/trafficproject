@@ -1,13 +1,3 @@
-"""
-pipeline/ingestion.py
-─────────────────────
-Step 3  — Read multiple CSV files
-Step 10 — Batch ingestion pipeline from CSV to database
-
-Reads all .csv files from a directory, adds provenance metadata,
-and returns a single merged DataFrame. Handles encoding errors,
-malformed rows, and missing headers gracefully.
-"""
 
 import pandas as pd
 import numpy as np
