@@ -1,14 +1,4 @@
-"""
-main.py — Complete Traffic Violations Data Engineering Pipeline
-==============================================================
-Orchestrates all 30 steps end-to-end.
 
-Run:
-  python main.py                      # full pipeline
-  python main.py --skip-cloud         # skip cloud (no AWS/GCP creds)
-  python main.py --skip-kafka         # skip streaming simulation
-  streamlit run dashboard/app.py      # launch dashboard
-"""
 
 import argparse
 import logging
