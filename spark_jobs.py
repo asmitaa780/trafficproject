@@ -1,20 +1,4 @@
-"""
-pipeline/spark_jobs.py
-──────────────────────
-Step 13 — Create Spark job to process large dataset
-Step 14 — DataFrame transformations and actions
-Step 15 — Query large dataset using Spark SQL
-Step 16 — Optimize Spark jobs using partitioning and caching
 
-Usage (local mode — no cluster needed):
-    python -m pipeline.spark_jobs
-
-With real cluster:
-    export SPARK_MASTER=spark://master:7077
-    python -m pipeline.spark_jobs
-
-Requires: pip install pyspark
-"""
 
 import os
 import logging
